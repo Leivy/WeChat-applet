@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/middle/middle",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/home/home",
+    "pages/middle/middle",
     "pages/content/movie/movie"
   ],
   "window": {
@@ -14,18 +15,26 @@
   "tabBar": {
     "color": "#000",
     "selectedColor": "#00bcbc",
-    "backgroundColor": "#ccc",
+    "backgroundColor": "#fff",
     "list": [
       {
         "pagePath": "pages/index/index",
+        "iconPath":"image/tabicon/home.png",
+        "selectedIconPath":"image/tabicon/homeactive.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/middle/middle",
+        "iconPath":"image/tabicon/middle.png",
+        "selectedIconPath":"image/tabicon/middleactive.png",
+        
         "text": "发现"
       },
       {
         "pagePath": "pages/user/user",
+        "iconPath":"image/tabicon/user.png",
+        "selectedIconPath":"image/tabicon/useractive.png",
+        
         "text": "我的"
       }
     ]

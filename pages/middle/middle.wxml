@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="header">{{header}}</view>
+  <view class="asider">
+    <scroll-view></scroll-view>
+  </view>
+  <view class="content">
+
+    <scroll-view class="section">
+      <view class="section__title">flex-direction: row</view>
+      <view class="flex-wrp" style="flex-direction:row;">
+        <view class="flex-item bc_green">1</view>
+        <view class="flex-item bc_red">2</view>
+      </view>
+    </scroll-view>
+
+  </view>
+  <view class="footer"></view>
+</view>
